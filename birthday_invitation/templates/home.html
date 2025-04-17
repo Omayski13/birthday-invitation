@@ -1,0 +1,12 @@
+{% include 'base.html' %}
+{% block content %}
+    
+    Kriso
+    <form method="post">
+        {{ form.name }}
+        {% csrf_token %}
+        <button>Sent</button>
+    </form>
+
+{% endblock %}
+
