@@ -1,12 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% include 'base.html' %}
+{% load static %}
+{% block content %}
+    
+    <section class="p-3 text-center">
+        
+        <h2 class=" date p-5">Покана</h2>
+        
+        <div class="pb-5 dancing">
+            <img  id="dancing-kriso" src="{% static 'images/dancing-kriso.gif' %}">
+            <img  id="dancing-kriso" src="{% static 'images/dancing-kriso-2.gif' %}">
+            <img  id="dancing-kriso" src="{% static 'images/dancing-kriso-3.gif' %}">
+        </div>
+        
+        <h2><i class="fa-solid fa-calendar-days"></i> 25.04.2025</h2>
+        <h2><i class="fa-solid fa-location-dot"></i>  Bar de Rouge Sofia</h2>
+        <h2><i class="fa-solid fa-clock"></i>  21:00 h</h2>
+        
+        
+    
+    </section>
 
-kriso RD
-
-</body>
-</html>
+{% endblock %}
