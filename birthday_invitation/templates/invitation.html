@@ -3,9 +3,14 @@
 {% block content %}
     
     <section class="p-3 text-center">
-        
+
+        {% if guest_name == "мартин" %}
+            <h2 class=" date">Мартине, не се сдържах</h2>
+            <img id="middle-finger" src="{%  static 'images/middle-finger.png'  %}"/>
+        {% endif %}
+
         <h2 class=" date p-5">Покана</h2>
-        
+
         <div class="pb-5 dancing">
             <img  id="dancing-kriso" src="{% static 'images/dancing-kriso.gif' %}">
             <img  id="dancing-kriso" src="{% static 'images/dancing-kriso-2.gif' %}">
