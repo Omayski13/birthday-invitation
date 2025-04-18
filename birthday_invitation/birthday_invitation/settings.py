@@ -29,7 +29,7 @@ ALLOWED_HOSTS = [
     'https://7523-92-247-253-43.ngrok-free.app',
     '7523-92-247-253-43.ngrok-free.app',
     'localhost',
-    '127.0.0.1'
+    '127.0.0.1',
     '.onrender.com'
 ]
 
